@@ -3,7 +3,7 @@ import './calculator.css';
 export default function App() {
   return (
     <div className="container">
-      <input className="number-input" type="text" />
+      <input className="number-input" type="text" value="0" />
       <div className="first-row">
         <button type="button">AC</button>
         <button type="button">+/-</button>
@@ -23,10 +23,10 @@ export default function App() {
         <button type="button">-</button>
       </div>
       <div className="third-row">
-        <button type="button">4</button>
-        <button type="button">5</button>
-        <button type="button">6</button>
-        <button type="button">-</button>
+        <button type="button">1</button>
+        <button type="button">2</button>
+        <button type="button">3</button>
+        <button type="button">+</button>
       </div>
       <div className="fifth-row">
         <button type="button">0</button>

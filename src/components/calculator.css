@@ -1,12 +1,29 @@
+body {
+  font-family: cursive, sans-serif;
+}
 .container {
   text-align: center;
   margin: 200px auto;
-  border: 1px solid #333;
-  width: 400px;
+  width: 350px;
 }
 .number-input {
-  width: 98%;
+  width: 94.5%;
   text-align: right;
+  background-color: #858694;
+  color: #fff; 
+  outline: none;
+  border: none;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+button{
+  font-size: 12px;
+  height: 50px;
+  background: none;
+  border-width: 0.1em;
+  border-color: #ddd;
+  cursor: pointer
 }
 .first-row,
 .second-row,
@@ -14,6 +31,22 @@
 .fourth-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.first-row button,
+.second-row button,
+.third-row button,
+.fourth-row button,
+.fifth-row button {
+  background-color: #E0E0E0;
+}
+.first-row button:last-child,
+.second-row button:last-child,
+.third-row button:last-child,
+.fourth-row button:last-child,
+.fifth-row button:last-child {
+  background-color: #F5913E;
+  border-color: #f5913e;
+
 }
 .fifth-row {
   display: grid;
