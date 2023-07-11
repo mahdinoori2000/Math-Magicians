@@ -1,6 +1,6 @@
 import './calculator.css';
 
-export default function App() {
+export default function Calculator() {
   return (
     <div className="container">
       <input className="number-input" type="text" value="0" />
