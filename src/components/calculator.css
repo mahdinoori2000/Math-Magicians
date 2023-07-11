@@ -4,24 +4,18 @@
   border: 1px solid #333;
   width: 400px;
 }
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.number-input {
+  width: 98%;
+  text-align: right;
 }
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-.App-link {
-  color: #61dafb;
-} */
+.fifth-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
