@@ -9,7 +9,7 @@ export default function Calculator() {
     setData(newData);
   };
   return (
-    <div className="container">
+    <section className="calculator">
       <input className="number-input" type="text" value={data.next || data.total || '0'} readOnly />
       <div className="first-row">
         <button type="button" onClick={() => handleClick('AC')}>AC</button>
@@ -40,6 +40,6 @@ export default function Calculator() {
         <button type="button" onClick={() => handleClick('.')}>.</button>
         <button type="button" onClick={() => handleClick('=')}>=</button>
       </div>
-    </div>
+    </section>
   );
 }

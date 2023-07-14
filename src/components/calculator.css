@@ -3,8 +3,18 @@ body {
 }
 
 .container {
+  display: flex;
+}
+
+.calculator {
   text-align: center;
   margin: 200px auto;
+  width: 350px;
+}
+
+.quote {
+  text-align: center;
+  margin: 100px auto;
   width: 350px;
 }
 
