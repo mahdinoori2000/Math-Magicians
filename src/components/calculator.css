@@ -1,14 +1,17 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.container{
+
+.container {
   display: flex;
 }
+
 .calculator {
   text-align: center;
   margin: 200px auto;
   width: 350px;
 }
+
 .quote {
   text-align: center;
   margin: 100px auto;
