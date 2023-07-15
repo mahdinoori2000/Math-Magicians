@@ -16,6 +16,9 @@ body {
   text-align: center;
   margin: 100px auto;
   width: 350px;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 10px;
 }
 
 .number-input {
@@ -75,11 +78,7 @@ button {
   text-align: center;
   padding: 20px;
 }
-.quote {
-  font-size: 24px;
-  font-style: italic;
-  margin-bottom: 10px;
-}
+
 .author {
   font-size: 18px;
 }
