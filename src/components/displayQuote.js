@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 
 export default function Quote() {
   const [quote, setQuote] = useState(null);
+  const [author, setAuthor] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   useEffect(() => {
@@ -14,6 +15,7 @@ export default function Quote() {
         });
         const data = await response.json();
         setQuote(data[0].quote);
+        setAuthor(data[0].author);
       } catch (error) {
         setError(error);
       } finally {
@@ -31,8 +33,11 @@ export default function Quote() {
     return <h2 className="quote">Something went wrong, please try again</h2>;
   }
   return (
-    <section className="quote">
-      <h2 className="quote">{quote}</h2>
-    </section>
+    <div className="quote-container quote">
+      <blockquote className="quote">
+        {quote}
+      </blockquote>
+      <cite className="author">{author}</cite>
+    </div>
   );
 }
