@@ -68,3 +68,18 @@ button {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
 }
+
+.quote-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.author {
+  font-size: 18px;
+}
