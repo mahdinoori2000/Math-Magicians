@@ -2,12 +2,14 @@ import { NavLink, Route, Routes } from 'react-router-dom';
 import Calculator from './components/calculator';
 import Quote from './components/displayQuote';
 import Home from './components/home';
+import './components/App.css';
 
 function App() {
   return (
     <div className="container">
       <nav className="navbar">
-        <ul>
+        <div className="navbar-brand">Math Magicians</div>
+        <ul className="nav-links">
           <li><NavLink to="home">Home</NavLink></li>
           <li><NavLink to="calculator">Calculator</NavLink></li>
           <li>
