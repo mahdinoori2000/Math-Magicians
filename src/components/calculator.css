@@ -8,14 +8,14 @@ body {
 
 .calculator {
   text-align: center;
-  margin: 200px auto;
+  margin: 150px auto 0 auto;
   width: 350px;
 }
 
 .quote {
   text-align: center;
-  margin: 100px auto;
-  width: 350px;
+  margin: 200px auto;
+  width: 700px;
   font-size: 24px;
   font-style: italic;
   margin-bottom: 10px;
@@ -73,12 +73,11 @@ button {
 }
 
 .quote-container {
-  max-width: 400px;
   margin: 0 auto;
   text-align: center;
   padding: 20px;
 }
 
 .author {
-  font-size: 18px;
+  font-size: 15px;
 }
