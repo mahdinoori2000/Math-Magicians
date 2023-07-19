@@ -47,17 +47,13 @@
 
 ### 🔑 Key Features <a name="key-features"></a>
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [🔗 Live Demo Link]()
+- [ ] **Home Section**
+- [ ] **Calculator**
+- [ ]  **Quote generator**
+- [ ] **Test components and functions using React-test**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
@@ -128,15 +124,21 @@ npm start
 - Twitter: [@mahdinoori2000](https://twitter.com/mahdinoori2000)
 - LinkedIn: [@mahdinoori2000](https://www.linkedin.com/in/mahdi-noori-4b4370270/)
 
+👤 **Aniekan Winner**
+
+- GitHub: [@githubhandle](https://github.com/DevaWinner)
+- Twitter: [@twitterhandle](https://twitter.com/WinnerDevq)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/winnera/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔮 Future Features <a name="future-features"></a>
 
-- [ ] **Add Calculator**
+- [ ]  **Resposive design**
+- [ ] **Add more functionlaity operatin to calculator**
 
-- [ ]  **Add Quote generator**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
