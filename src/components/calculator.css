@@ -8,8 +8,12 @@ body {
 
 .calculator {
   text-align: center;
-  margin: 150px auto 0 auto;
+  margin: 150px auto 0 150px;
   width: 350px;
+}
+.secondry-header {
+  font-size: 32px;
+  margin: 120px 0 0 50px;
 }
 
 .quote {
@@ -80,4 +84,7 @@ button {
 
 .author {
   font-size: 15px;
+}
+.calculator-section {
+  display: flex;
 }
