@@ -10,4 +10,9 @@ describe('operate()', () => {
     const result = operate('1', '2', '-');
     expect(result).toBe('-1');
   });
+
+  test('should perform multiplication of two numbers', () => {
+    const result = operate('1', '2', 'x');
+    expect(result).toBe('2');
+  });
 });
