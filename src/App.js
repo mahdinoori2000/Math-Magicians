@@ -10,7 +10,7 @@ function App() {
       <nav className="navbar">
         <div className="navbar-brand">Math Magicians</div>
         <ul className="nav-links">
-          <li><NavLink to="home">Home</NavLink></li>
+          <li><NavLink to="/">Home</NavLink></li>
           <li><NavLink to="calculator">Calculator</NavLink></li>
           <li>
             <NavLink to="quote">Quote</NavLink>
