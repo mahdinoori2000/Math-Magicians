@@ -35,9 +35,9 @@ export default function Quote() {
   return (
     <div className="quote-container quote">
       <blockquote className="quote">
-        {quote}
+        {`${quote} `}
+        <cite className="author">{` -${author}`}</cite>
       </blockquote>
-      <cite className="author">{author}</cite>
     </div>
   );
 }
