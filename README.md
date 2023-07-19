@@ -143,6 +143,8 @@ npm start
 
 ## 🔮 Future Features <a name="future-features"></a>
 
+- [ ]  **Resposive design**
+- [ ] **Add more functionlaity operatin to calculator**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
