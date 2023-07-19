@@ -12,4 +12,10 @@ describe('calculagte()', () => {
     const result = calculate(data, '=');
     expect(result).toEqual({ total: '15', next: null, operation: null });
   });
+
+  test('should subtract two numbers', () => {
+    const data = { total: '10', next: '5', operation: '-' };
+    const result = calculate(data, '=');
+    expect(result).toEqual({ total: '5', next: null, operation: null });
+  });
 });
