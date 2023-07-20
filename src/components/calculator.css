@@ -15,12 +15,14 @@ button {
 .container {
   display: flex;
 }
+
 /* CALCULATOR SECTION  */
 .calculator {
   text-align: center;
   margin: 150px auto 0 150px;
   width: 350px;
 }
+
 .number-input {
   width: 94.5%;
   text-align: right;
@@ -32,6 +34,7 @@ button {
   font-size: 20px;
   padding: 5px 10px;
 }
+
 .first-row,
 .second-row,
 .third-row,
@@ -62,23 +65,24 @@ button {
   grid-template-columns: 2fr 1fr 1fr;
 }
 
-
 .calculator-section {
   display: flex;
 }
+
 .secondry-header {
   font-size: 32px;
   margin: 120px 0 0 50px;
 }
-  /* QUOTE SECTION  */
-  .quote {
-    text-align: center;
-    margin: 200px auto;
-    width: 700px;
-    font-size: 24px;
-    font-style: italic;
-    margin-bottom: 10px;
-  }
+
+/* QUOTE SECTION  */
+.quote {
+  text-align: center;
+  margin: 200px auto;
+  width: 700px;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
 
 .quote-container {
   margin: 0 auto;
