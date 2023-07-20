@@ -1,29 +1,26 @@
+/* GENERAL DESIGN  */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  font-size: 12px;
+  height: 50px;
+  background: none;
+  border-width: 0.1em;
+  border-color: #ddd;
+  cursor: pointer;
 }
 
 .container {
   display: flex;
 }
 
+/* CALCULATOR SECTION  */
 .calculator {
   text-align: center;
   margin: 150px auto 0 150px;
   width: 350px;
-}
-
-.secondry-header {
-  font-size: 32px;
-  margin: 120px 0 0 50px;
-}
-
-.quote {
-  text-align: center;
-  margin: 200px auto;
-  width: 700px;
-  font-size: 24px;
-  font-style: italic;
-  margin-bottom: 10px;
 }
 
 .number-input {
@@ -36,15 +33,6 @@ body {
   height: 50px;
   font-size: 20px;
   padding: 5px 10px;
-}
-
-button {
-  font-size: 12px;
-  height: 50px;
-  background: none;
-  border-width: 0.1em;
-  border-color: #ddd;
-  cursor: pointer;
 }
 
 .first-row,
@@ -77,6 +65,25 @@ button {
   grid-template-columns: 2fr 1fr 1fr;
 }
 
+.calculator-section {
+  display: flex;
+}
+
+.secondry-header {
+  font-size: 32px;
+  margin: 120px 0 0 50px;
+}
+
+/* QUOTE SECTION  */
+.quote {
+  text-align: center;
+  margin: 200px auto;
+  width: 700px;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
 .quote-container {
   margin: 0 auto;
   text-align: center;
@@ -85,8 +92,4 @@ button {
 
 .author {
   font-size: 15px;
-}
-
-.calculator-section {
-  display: flex;
 }
